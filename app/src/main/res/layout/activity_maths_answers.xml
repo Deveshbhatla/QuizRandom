@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/indian_background"
+    android:layout_height="match_parent"
+    tools:context=".maths.MathsAnswers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:text="1.समीकरण 49 ÷ {[([(4 × 3) ÷ (4 + 2)] ÷ [(4 × 5) – (3 × 6)])] + 6} =? का मान ज्ञात कीजिये|"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="#000000"
+      android:text="⇒ 49 ÷ {[(12 ÷ 6) ÷ (20 – 18)] + 6}\n
+⇒ 49 ÷ [(2 ÷ 2) + 6)\n
+⇒ 49 ÷ [(2 ÷ 2) + 6]\n
+⇒ 49 ÷ (1 + 6)\n
+∴ 49 ÷ {[([(4 × 3) ÷ (4 + 2)] ÷ [(4 × 5) – (3 × 6)])] + 6} का मान = 7
+"
+      />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="2. 13 प्राकृतिक संख्याओं का औसत 11 है। तो अंतिम 11 संख्याओं का अधिकतम औसत क्या हो सकता है?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+           android:text="13 प्राकृतिक संख्याओं का औसत = 11
+∴ 13 संख्याओं का योग = 13 × 11 = 143\n
+अंतिम 11 संख्याओं का योग = 13 संख्याओं का योग – पहले 2 संख्याओं का योग
+अंतिम 11 संख्याओं का अधिकतम योग = 143 – 2 = 141\n
+(∵ पहले और दूसरे पद का अधिकतम मान 1 हो सकता है)\n
+∴ अधिकतम औसत = 141/11
+"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="3.निम्न व्यंजक का इकाई अंक क्या है?
+13456 × 45789 × 23871 × 667832 × 23560?
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="D. 0
+व्यंजक का इकाई अंक = गुणनफल का इकाई अंक
+अभीष्ट गुणनफल = 6 × 9 × 1 × 2 × 0 = 0
+अतः, इकाई अंक = 0
+"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="4. P रुपयों का 30%, Q रुपयों के 40% के बराबर है| यदि P रुपयों का x%, Q रुपयों के बराबर होता है, तो x का मान क्या है?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text=" D. 75
+हमारे पास है,
+30/100×P=40/100×Q
+⇒P/Q=4/3
+दिया है,
+x/100×P=Q
+⇒P/Q=100/x
+⇒4/3=100/x
+⇒ x = 75
+"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="5.एक दीवार एक 6 मी ऊँचाई एवं 4 मी तथा 8 मी की समांतर भुजाओं वाले समलम्ब के रूप में है| यदि रंगने की दर 25 रूपये प्रति वर्ग मी है, तो दीवार को रंगने की लागत क्या है?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="D. 900 रूपये
+समलम्ब का क्षेत्रफल = ½ × समांतर भुजाओं की लम्बाई का योग × ऊँचाई
+क्षेत्रफल = ½ × (4 + 8) × 6 = 36 मी2
+रंगने की लागत = 25 रूपये प्रति मी2
+इसलिए, कुल लागत = 36 × 25 = 900 रूपये
+"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="6.दो संख्याएँ 7 और 21 का तीसरा अनुपात क्या है?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="माना कि तीसरा अनुपात है ‘c’.
+⇒ 7 : 21 ∷ 21 : c
+⇒ 7/21 = 21/c
+⇒ 1/3 = 21/c
+∴ c = 21 × 3 = 63
+"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="7.सबसे बड़ी संख्या ज्ञात कीजिये कि जिससे 200 और 320 को समान रूप से भाग दिया जा सके?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="सबसे बड़ी संख्या जिससे 200 और 320 को समान रूप से भाग दिया जा सके = HCF (200, 320)
+= HCF (40 × 5, 40 × 8)
+= 40
+"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="8.एक 720 रु. की धनराशि 1.5 वर्षों में सरल ब्याज पर 882 रु. बन जाती है। कितने वर्षों में समान दर से 800 रु. की धनराशि 1040 रु. बन जायेगी?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="D. 2
+दिया गया है: मूलधन = 720 रु.
+3/2 वर्षों बाद राशि = 882 रु.
+हमें ज्ञात है,
+A = P + (P × R × T)/100
+⇒ 882 = 720 + (720 × R × 3/2)/100
+⇒ 16200 = 720 × R × 3/2
+⇒ R = 16200/(720 × 1.5)
+⇒ R = 15%
+नया मूलधन = 800 रु., नयी राशि = 1040 रु.
+⇒ 1040 = 800 + (800 × 15 × t)/100
+⇒ 24000 = 800 × 15 × t
+⇒ t = 2 वर्ष
+∴ उचित विकल्प 4) है
+"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="9. a, b और c तीन संख्याएं हैं। a और b के अंतर और योग का अनुपात 5 : 6 है, यदि c = 4a – 5b है, तो c : (a + b) ढूंढें|"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="D. 13 : 4
+दिया हुआ है,
+(a – b)/(a + b) = 5/6     —-(1)
+दोनों तरफ़ 1 जोड़ने पर, हमें प्राप्त हुआ
+⇒(a−b/a+b)+1=5/6+1
+⇒(a−b+a+b/a+b)=5+6/6
+⇒2a/a+b=11/6  —-(2)
+समीकरण 1 के दोनों तरफ से 1 घटाकर , हमें प्राप्त हुआ
+⇒(a−b/a+b)−1=5/6−1
+⇒a−b−a−b/a+b=5−6/6
+⇒−2b/(a+b)=−1/6
+⇒2b/a+b=1/6     —-(3)
+समीकरण (2) ÷ समीकरण (3) से, हमें प्राप्त हुआ
+⇒ (2a/(a + b)) ÷ (2b/(a + b)) = 11/6 ÷ 1/6
+⇒ a/b = 11/1
+मानिये कि a = 11x और b = x
+फिर, c = 4a – 5b = 4 × (11x) – 5 × x = 39x
+इसलिए, c/(a + b) = 39x/(11x + x) = 39x/12x = 13/4
+"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="10. एक दूकानदार ग्राहकों को 10% छूट देने पश्चात् भी 20% का लाभ कमाता है| रु. 450 क्रय मूल्य की वस्तु का अंकित मूल्य ज्ञात करें|"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="A. रु. 600
+माना कि वस्तु का अंकित मूल्य रु. X है|
+दिया है, क्रय मूल्य = रु. 450
+लाभ प्रतिशत = 20%
+छूट प्रतिशत = 10%
+हम जानते हैं कि, विक्रय मूल्य = अंकित मूल्य × (1 – (छूट प्रतिशत)/100)
+∴ विक्रय मूल्य = X × (1 – 10/100)
+= 0.9X
+हम यह भी जानते हैं कि, विक्रय मूल्य = क्रय मूल्य×(1 + (लाभ प्रतिशत)/100)
+∴ 0.9X = क्रय मूल्य × (1 + 20/100)
+⇒ क्रय मूल्य = 0.75X
+चूँकि, क्रय मूल्य = रु. 450
+∴ 450 = 0.75X
+⇒ X = रु. 600
+∴ अंकित मूल्य रु. 600 है|
+"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="11. व्यंजक 3 × (10 + 5) + (48/6)/4 – 7 का मान क्या है?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="B. 40
+BODMAS नियम का उपयोग करने पर
+3 × (10 + 5) + (48/6)/4 – 7 = 3 × (15) + (48/6)/4 – 7 = 45 + (8)/4 – 7 = 45 + 2 – 7 = 47 – 7 = 40
+"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="12. एक व्यक्ति 800 किमी की कुछ यात्रा रेल के द्वारा और कुछ यात्रा नाव द्वारा तय करता है| वह नाव पर 7 घंटे अधिक व्यतीत करता है| यदि नाव की गति 20 किमी/घंटा है और रेल की गति 55 किमी/घंटा है, तब उसने नाव द्वारा कितनी दूरी तय की है?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="A. 316 किमी
+माना रेल पर व्यतीत किया गया समय t है
+दूरी = गति × समय
+⇒ t × 55 + (t + 7) × 20 = 800
+⇒ 75t = 800 – 140 = 660
+⇒ t = 8.8 घंटे
+∴ नाव द्वारा तय की गई दूरी = (8.8 + 7) × 20 = 316 किमी
+"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="13.10 पुरुष 15 दिनों में एक कार्य पूरा करते हैं। कार्य शुरू करने के पांच दिन बाद, 10 लोग उनके साथ जुड़ गए। शेष कार्य को पूरा करने के लिए कितने दिन लगेंगे?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="D. 5 दिन
+एक आदमी 10 × 15 = 150 दिनों में कार्य कर सकता है\n
+एक आदमी का एक दिवसीय कार्य = 1/150\n
+पुरुषों का एक दिवसीय कार्य = (1/150) × 10 = 1/15\n
+5 दिनों में किया गया कार्य = (1/15) × 5 = 1/3\n
+शेष कार्य = 1 – 1/3 = 2/3\n
+20 पुरुषों का एक दिवसीय कार्य = (1/150) × 20 = 2/15\n
+शेष कार्य पूरा करने के लिए लिया गया समय = (2/3) × (15/2) = 5 दिन\n
+"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="14. निम्न प्रश्न में प्रश्नवाचक चिह्न (?) के स्थान पर लगभग क्या मान आएगा?
+24.93 + 70.02 + 9.92 = 2207.32 ÷ (?)
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text=" A. 21.04
+24.93 + 70.02 + 9.92 = 2207.32 ÷ (?)\n
+⇒ 25 + 70 + 10 = 2207 ÷ (?)\n
+⇒ 105 = 2207 ÷ (?)\n
+⇒ 2207 ÷ 105 = (?)\n
+⇒ 21.01 = (?)\n
+अतः समीपतम संख्या 21.04 है|
+"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="15.दिया गया है कि एक निश्चित संख्या से (224 + 1) पूरी तरह से भाज्य है| इनमें से कौन सा विकल्प भी उसी संख्या से निश्चित रूप से पूरी तरह भाज्य होगा?"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+android:text="B. (248 – 1)\n
+दिया गया है, (224 + 1) एक संख्या से पूरी तरह भाज्य है|\n
+माना 224 = y\n
+∴ y + 1 उस संख्या से पूरी तरह भाज्य है|\n
+(248 – 1) = (y2 – 1) =  (y – 1)(y + 1), इस प्रकार इसमें (y + 1) पद है, जोकि निश्चित ही उस संख्या से भाज्य होगा|
+"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
