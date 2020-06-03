@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name=".Physics.PhysicsAnswers"></activity>
+        <activity android:name=".maths.MathsAnswers" />
         <activity android:name=".ExtraActivity" />
         <activity android:name=".SST.SSTResultActivity" />
         <activity android:name=".SST.SSTQuestionsActivity" />
@@ -30,8 +32,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
-
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
