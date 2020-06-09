@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.devesh_quiz">
+    package="com.devesh.devesh_quiz">
 
     <application
         android:allowBackup="true"
@@ -9,22 +9,22 @@
         android:roundIcon="@drawable/quiz"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
-        <activity android:name=".Physics.PhysicsAnswers"></activity>
-        <activity android:name=".maths.MathsAnswers" />
-        <activity android:name=".ExtraActivity" />
-        <activity android:name=".SST.SSTResultActivity" />
-        <activity android:name=".SST.SSTQuestionsActivity" />
-        <activity android:name=".Physics.PhysicsResultActivity" />
-        <activity android:name=".Physics.PhysicsQuestionActivity" />
-        <activity android:name=".Chemistry.ChemistryResultActivity" />
-        <activity android:name=".Chemistry.ChemistryQuestionsActivity" />
-        <activity android:name=".SST.SstActivity" />
-        <activity android:name=".Chemistry.ChemistryActivity" />
-        <activity android:name=".Physics.PhysicsActivity" />
-        <activity android:name=".maths.MathsActivity" />
-        <activity android:name=".maths.QuestionsActivity" />
-        <activity android:name=".maths.ResultActivity" />
-        <activity android:name=".SplashScreen">
+        <activity android:name="com.devesh.devesh_quiz.Physics.PhysicsAnswers"></activity>
+        <activity android:name="com.devesh.devesh_quiz.maths.MathsAnswers" />
+        <activity android:name="com.devesh.devesh_quiz.ExtraActivity" />
+        <activity android:name="com.devesh.devesh_quiz.SST.SSTResultActivity" />
+        <activity android:name="com.devesh.devesh_quiz.SST.SSTQuestionsActivity" />
+        <activity android:name="com.devesh.devesh_quiz.Physics.PhysicsResultActivity" />
+        <activity android:name="com.devesh.devesh_quiz.Physics.PhysicsQuestionActivity" />
+        <activity android:name="com.devesh.devesh_quiz.Chemistry.ChemistryResultActivity" />
+        <activity android:name="com.devesh.devesh_quiz.Chemistry.ChemistryQuestionsActivity" />
+        <activity android:name="com.devesh.devesh_quiz.SST.SstActivity" />
+        <activity android:name="com.devesh.devesh_quiz.Chemistry.ChemistryActivity" />
+        <activity android:name="com.devesh.devesh_quiz.Physics.PhysicsActivity" />
+        <activity android:name="com.devesh.devesh_quiz.maths.MathsActivity" />
+        <activity android:name="com.devesh.devesh_quiz.maths.QuestionsActivity" />
+        <activity android:name="com.devesh.devesh_quiz.maths.ResultActivity" />
+        <activity android:name="com.devesh.devesh_quiz.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -32,7 +32,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.devesh.devesh_quiz.MainActivity" />
     </application>
 
 </manifest>
