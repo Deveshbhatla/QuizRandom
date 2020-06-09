@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.example.devesh_quiz"
+        applicationId "com.devesh.devesh_quiz"
         minSdkVersion 24
         targetSdkVersion 29
         versionCode 1
@@ -18,6 +18,12 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    bundle {
+        language {
+
+            enableSplit = false
         }
     }
 }
