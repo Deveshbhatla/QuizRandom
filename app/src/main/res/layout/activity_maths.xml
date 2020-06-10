@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
 
-    tools:context="com.example.devesh_version_1.maths.MathsActivity"
+    tools:context="com.devesh.devesh_version_1.maths.MathsActivity"
     >
 
     <TextView
