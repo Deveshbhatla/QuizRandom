@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/indian_background"
 
-    tools:context="com.example.devesh_version_1.maths.QuestionsActivity">
+    tools:context="com.devesh.devesh_version_1.maths.QuestionsActivity">
 
     <TextView
         android:layout_width="200dp"
