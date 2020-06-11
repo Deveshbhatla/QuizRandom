@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indian_background"
+    tools:context=".ExtraActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="कुछ उपयोगी लिंक"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#000000"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp"
+        android:gravity="left"
+        android:layout_marginLeft="10sp"
+
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/nptel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nptel.ac.in"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#431AF6"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    (आईआईटी प्रोफेसर के वीडियो के लिए)"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp"
+        android:gravity="left"
+        android:layout_marginLeft="10sp"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/vigyanprasar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vigyanprasar.gov.in"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#431AF6"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    (विज्ञान कीट)"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="250dp"
+        android:gravity="left"
+        android:layout_marginLeft="10sp"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/bhartiscript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bhartiscript.com"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textColor="#431AF6"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     (भारति लिपि)"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="300dp"
+        android:gravity="left"
+        android:layout_marginLeft="10sp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/arvindguptatoys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arvindguptatoys.com"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#431AF6"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    (विज्ञान प्रयोग)"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+</RelativeLayout>
