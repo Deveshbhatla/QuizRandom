@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/indian_background"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="अपना विषय चुनें"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        />
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/GridLayout1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:orientation="horizontal"
+        tools:context=".GridXMLActivity" >
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_gravity="left|top"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:scaleType="centerCrop"
+            android:layout_margin="15dp"
+            android:src="@drawable/maths"
+            android:elevation="100dp"
+            android:background="#0003DAC5"
+            android:text="Button" />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_gravity="left|top"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/physics"
+            android:scaleType="centerCrop"
+            android:layout_margin="15dp"
+            android:text="Button" />
+
+        <ImageButton
+            android:id="@+id/button3"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/chemistry"
+            android:scaleType="centerCrop"
+            android:background="#0003DAC5"
+            android:layout_gravity="left|top"
+            android:text="Button" />
+
+        <ImageButton
+            android:id="@+id/button4"
+            android:layout_gravity="left|top"
+            android:layout_margin="15dp"
+            android:src="@drawable/social_science"
+            android:background="#0003DAC5"
+            android:scaleType="centerCrop"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="Button" />
+    </GridLayout>
+</RelativeLayout>
