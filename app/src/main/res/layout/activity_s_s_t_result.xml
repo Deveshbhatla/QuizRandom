@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+
+    tools:context="com.devesh.devesh_version_1.maths.ResultActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tvres"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="#F44336"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="19dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="पुनर्प्रारंभ करें"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/btnRestart"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="119dp"
+        android:layout_alignParentLeft="true"
+        android:textSize="20dp"
+        android:layout_alignParentStart="true"
+        android:background="#01579B"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tvres2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#76FF03"
+        android:layout_below="@+id/tvres"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tvres3"
+        android:background="#FFEB3B"
+        android:layout_below="@+id/tvres2"
+        android:layout_marginTop="33dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignRight="@+id/tvres2"
+        android:layout_alignEnd="@+id/tvres2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="158dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="&quot;शिक्षण एक बहुत ही महान पेशा है जो किसी व्यक्ति के चरित्र, क्षमता, और भविष्य को आकार देता हैं। अगर लोग मुझे एक अच्छे शिक्षक के रूप में याद रखते हैं, तो मेरे लिए ये सबसे बड़ा सम्मान होगा।&quot; \n- डाक्टर ए.पी.जे. अब्दुल कलाम
+"        android:id="@+id/quote"
+        android:layout_below="@+id/tvres3"
+        android:layout_marginTop="73dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignRight="@+id/tvres3"
+        android:layout_alignEnd="@+id/tvres3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="19dp" />
+</RelativeLayout>
