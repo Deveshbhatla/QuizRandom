@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indian_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/indian_background"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Physics.PhysicsAnswers">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Q1)लंबाई L का एक तार, जो सामग्री प्रतिरोधकता से बना होता है, वह दो समान भागों में कट जाता है। दो भागों की प्रतिरोधकता बराबर होती है,"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="ρ\n
+सामग्री की प्रतिरोधकता केवल सामग्री की प्रकृति पर निर्भर करती है न कि आयामों पर।
+"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Q2)
+10 वोल्ट की बैटरी 20 ohm के प्रतिरोध के माध्यम से 20,000 C का आवेश वहन करती है। 10 सेकंड में किया गया काम है
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="2 × 105 जूल\n
+डब्ल्यू = क्यूवी = 20000 × 10 = 2,00, 000 = 2 × 105 जे
+"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Q3)
+केवल 6ohm प्रतिरोधों का उपयोग करके 2 ohm प्रतिरोध प्राप्त करने के लिए, उनमें से आवश्यक संख्या है
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="3
+2 Ω के तीन प्रतिरोधों को 6 Ω प्राप्त करने की आवश्यकता होती है क्योंकि परिणामी व्यक्ति की तुलना में अधिक होता है इसलिए उन्हें सभी को श्रृंखला में जोड़ा जाना चाहिए।
+"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Q4)
+दो डिवाइस दो बिंदुओं के बीच जुड़े हुए हैं, ए और बी समानांतर में कहते हैं। भौतिक बिंदु जो दो बिंदुओं के बीच समान रहेगा
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="B
+समानांतर संयोजन में, वोल्टेज दो बिंदुओं पर समान रहता है।
+"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Q5)
+2 Ω, 4 Ω , 1 Ω और 100 Ω का उपयोग करके प्राप्त कम से कम प्रतिरोध है
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="C
+समानांतर संयोजन में, समतुल्य प्रतिरोध सर्किट में प्रयुक्त कम से कम प्रतिरोध से छोटा होता है।
+"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Q6)
+बल्ब के गर्म रेशा का प्रतिरोध ठंड प्रतिरोध का लगभग 10 गुना है। जब उपयोग में न हो तो 100 W-220 V दीपक का प्रतिरोध क्या होगा?
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="
+R=V2/P=220*220/100=484 Ω
+"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Q7)
+एक अच्छा हीटर के साथ उपयोग किए जाने पर एक फ्यूज तार बार-बार जल जाता है। के फ्यूज वायर का उपयोग करने की सलाह दी जाती है
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="हीटर के काम को ठीक से प्राप्त करने के लिए, उच्च रेटिंग के फ्यूज्ड तार का उपयोग किया जाना चाहिए।"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Q8)
+एक घरेलू आपूर्ति से 1500W, 200 वोल्ट और 500W, 200 वोल्ट के एक प्रशंसक का उपयोग किया जाना है। उपयोग किए जाने वाले फ्यूज की रेटिंग है
+"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="10A\n
+1500+500=2000W\n
+I=2000/200=10A
+"
+        />
+
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Q9)
+ऊर्जा न तो बनाई जा सकती है और न ही नष्ट की जा सकती है, लेकिन फिर भी हर कोई ऊर्जा संकट के बारे में चर्चा करता है
+"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text=" ऊर्जा को न तो बनाया जा सकता है और न ही नष्ट किया जा सकता है, लेकिन उपयोग करने योग्य फार्म को कम उपयोग योग्य खेत में घेरने के लिए छोड़ दिया जाता है, जिसका दोबारा उपयोग नहीं किया जा सकता है।"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Q10)
+
+करंट के चुंबकीय प्रभाव की खोज किसने की थी
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="ओर्स्टेड ने दिखाया कि बिजली और चुंबकत्व संबंधित घटनाएं थीं।"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Q11)
+चुंबक के अंदर, क्षेत्र रेखाएं चलती हैं
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="उत्तर से दक्षिण की ओर,
+चुंबक के अंदर चुंबकीय क्षेत्र दक्षिण से उत्तरी ध्रुव की ओर बढ़ता है।
+
+"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Q12)
+किस उपकरण द्वारा चुंबकीय क्षेत्र की उपस्थिति निर्धारित की जाती है?
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="चुंबकीय क्षेत्र की सहायता से, किसी क्षेत्र में चुंबकीय क्षेत्र की उपस्थिति का पता लगाकर उसके विक्षेपण का पता लगाया जा सकता है।"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Q13)
+सीधे प्रवाहकत्त्व वाले तार द्वारा निर्मित चुंबकीय क्षेत्र का पैटर्न है
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="सीधे प्रवाहकत्त्व को ले जाने वाली धारा के चारों ओर चुंबकीय क्षेत्र रेखा को संकेंद्रित वृत्तों द्वारा दर्शाया जाता है"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Q14)
+
+एक क्षैतिज विद्युत लाइन के माध्यम से एक धारा दक्षिण से उत्तर दिशा की ओर बहती है। चुंबकीय क्षेत्र की दिशा 0.5 मीटर ऊपर है:
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="उत्तर\n
+            दाहिने हाथ के अंगूठे का नियम लागू करें।"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Q15)
+
+निम्नलिखित कारकों में से कौन सा एक समान चुंबकीय क्षेत्र में एक वर्तमान ले जाने के द्वारा बल अनुभव की ताकत को प्रभावित करता है?
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="उपरोक्त सभी\n
+             सभी कारक चुंबकीय बल की शक्ति को प्रभावित करते हैं।"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text=""
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
